@@ -1,7 +1,7 @@
 <h3 align="center">SISTEM PENJUALAN MOBIL PROGRAM STUDI D4 TI 
 MENGGUNAKAN FRAMEWORK YII BERBASIS WEB </i> <br> (SUB MODUL : PENGELOLAAN DATA PENJUALAN)</h3>
 <p align="center">
-  <img src="./img/proposal/logo.JPG" width="150" height="150">
+  <img src="./img/proposal/PoliteknikPos.JPG" width="150" height="150">
 </p>
 This proposal for managing the sales figures on a car showroom is a system to facilitate the sale of cars for consumers.
 ## Pre Requisite
