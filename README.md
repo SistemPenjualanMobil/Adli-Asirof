@@ -1,5 +1,5 @@
 <h3 align="center">SISTEM PENJUALAN MOBIL PROGRAM STUDI D4 TI 
-MENGGUNAKAN FRAMEWORK YII BERBASIS WEB </i> <br> (SUB MODUL : PENGELOLAAN DATA PENJUALAN)</h3>
+<br>MENGGUNAKAN FRAMEWORK YII BERBASIS WEB </i> <br> (SUB MODUL : PENGELOLAAN DATA PENJUALAN)</h3>
 <p align="center">
   <img src="./img/proposal/PoliteknikPos.JPG" width="150" height="150">
 </p>
