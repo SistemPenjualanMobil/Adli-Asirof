@@ -3,7 +3,7 @@ MENGGUNAKAN FRAMEWORK YII BERBASIS WEB </i> <br> (SUB MODUL : PENGELOLAAN DATA P
 <p align="center">
   <img src="./img/proposal/logo.JPG" width="150" height="150">
 </p>.
-
+This proposal for managing the sales figures on a car showroom is a system to facilitate the sale of cars for consumers
 ## Pre Requisite
 **Software**
 * Windows Operating System
