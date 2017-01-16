@@ -1,5 +1,5 @@
 <h3 align="center">SISTEM PENJUALAN MOBIL PROGRAM STUDI D4 TI </i>
-<br>MENGGUNAKAN FRAMEWORK YII BERBASIS WEB<br> (SUB MODUL : TRANSAKSI)</h3>
+<br>MENGGUNAKAN FRAMEWORK LARAVEL BERBASIS WEB<br> (SUB MODUL : TRANSAKSI)</h3>
 <p align="center">
   <img src="./img/Proposal/PoliteknikPos.JPG" width="150" height="150">
 </p>
