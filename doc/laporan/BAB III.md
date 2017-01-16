@@ -26,18 +26,11 @@
 
 ### **3.1.1.1. Analisis Prosedur (Flowmap)**
 
-1.  **Analisis sistem yang berjalan pada prosedur Pembelian Mobil**
+**A. Analisis sistem yang berjalan pada prosedur Penjualan Mobil**
 
-    ![](media/1ff7a0d3bf5683c9b94f2b20c30d138e.png)
+>   [./media/image1.png](./media/image1.png)
 
->   *Gambar 3.1 Flowmap analisis sistem yang berjalan pada pembelian mobil*  
->   
-
-1.  **Analisis sistem yang berjalan pada prosedur Penjualan Mobil**
-
-    ![](media/8cf3ed2407456b015c555dc8b5ebdfce.png)
-
-    *Gambar 3.2 Flowmap analisis sistem yang berjalan pada penjualan mobil*
+>   *Gambar 3.1 Flowmap analisis sistem yang berjalan pada penjualan mobil*
 
 >   **3.1.1.2. Analisis Dokumen Yang Sedang Berjalan**
 
@@ -50,17 +43,9 @@
 
 1.  **Analisis Sistem Yang Akan Dibangun**
 
-2.  **Analisis sistem pembelian**
+    ![](media/5f210b33fb2c962c482e0e33c360b7f3.png)
 
-    ![](media/a038356f7024fb0d353c56a9d71ce294.png)
-
->   *Gambar 3.3 Flowmap analisis sistem yang berjalan pada pembelians mobil*
-
-1.  **Analsisi sistem penjualan**
-
-    ![](media/0c5641e8fbcce94d9829d5b6eab355b4.png)
-
->   *Gambar 3.4 Flowmap analisis sistem yang berjalan pada pembelians mobil*
+>   *Gambar 3.2 Flowmap analisis sistem yang berjalan pada penjualan mobil*
 
 1.  **Kebutuhan Fungsional**
 
@@ -107,10 +92,10 @@ Tabel 3.3 Kebutuhan Perangkat Keras
 
 2.  **Use Case**
 
->   [./media/image5.png](./media/image5.png)
-
 >   Use case diagram adalah diagram yang menunjukkan suatu kelompok use case dan
 >   actors serta relationships-nya
+
+>   [./media/image3.png](./media/image3.png)
 
 >   *Gambar 3.3 Use case diagram*
 
@@ -121,18 +106,17 @@ Tabel 3.4. Definisi Aktor
 | No | Aktor     | Deskripsi                                                                        |
 |----|-----------|----------------------------------------------------------------------------------|
 | 1. | Admin     | Merupakan pihak yang mampu mengelola seluruh proses yang terkait penjualan mobil |
-| 2. | Pelanggan | Merupakan pihak yang membeli mobil dan bisa menjual mobil                        |
+| 2. | Pelanggan | Merupakan pihak yang membeli mobil                                               |
 
 1.  **Definisi Use Case Diagram**
 
 Tabel 3.5. Definisi *Use Case* Diagram
 
-| No | Use Case              | Deskripsi                                                                                              |
-|----|-----------------------|--------------------------------------------------------------------------------------------------------|
-| 1. | Login                 | Pemberian hak akses kepada user untuk membatasi pengaksesan pada sistem.                               |
-| 2. | Kelola data laporan   | Aktivitas yang dilakukan untuk mengelola data laporan tiap ada transaksi pembelian mobil.              |
-| 3. | Kelola Data transaksi | Aktivitas yang dilakukan untuk mengelola data transaksi dimana prosesnya pembelian mobil.              |
-| 4  | Kelola Data Mobil     | Aktivitas yang dilakukan untuk mengelola data mobil dimana prosesnya menambah, mengedit dan menghapus. |
+| No | Use Case              | Deskripsi                                                                                 |
+|----|-----------------------|-------------------------------------------------------------------------------------------|
+| 1. | Login                 | Pemberian hak akses kepada user untuk membatasi pengaksesan pada sistem.                  |
+| 2. | Kelola data laporan   | Aktivitas yang dilakukan untuk mengelola data laporan tiap ada transaksi pembelian mobil. |
+| 3. | Kelola Data transaksi | Aktivitas yang dilakukan untuk mengelola data transaksi dimana prosesnya pembelian mobil. |
 
 1.  **Skenario Use Case Diagram**
 
@@ -186,22 +170,6 @@ Tabel 3.8 Skenario *Use Case* Kelola Data Transaksi
 | Admin memilih menu transaksi | Sistem akan menampilkan data transaksi                                                    |
 | **Kondisi Akhir**            | Transaksi sukses                                                                          |
 
-1.  Skenario *Use Case* Kelola Data Mobil
-
-Tabel 3.9 Skenario *Use Case* Kelola Data mobil
-
-| **Identifikasi**             |                                                                                                        |
-|------------------------------|--------------------------------------------------------------------------------------------------------|
-| **Nama**                     | View Data mobil                                                                                        |
-| **Tujuan**                   | Aktivitas yang dilakukan untuk mengelola data mobil dimana prosesnya menambah, mengedit dan menghapus. |
-| **Deskripsi**                |                                                                                                        |
-| **Aktor**                    | Admin                                                                                                  |
-| Skenario Utama               |                                                                                                        |
-| **Kondisi Awal**             | Masuk kehalaman menu                                                                                   |
-| **Aksi Aktor**               | **Reaksi Sistem**                                                                                      |
-| Admin memilih menu transaksi | Sistem akan menampilkan data transaksi                                                                 |
-| **Kondisi Akhir**            | Transaksi sukses                                                                                       |
-
 1.  **Class Diagram**
 
 >   *Class Diagram* Adalah diagram yang menunjukan class-class yang ada dari
@@ -224,12 +192,16 @@ Gambar 3.4 *Class* Diagram
 Berikut ini merupakan *sequence diagram login* menjelaskan hubungan antara
 Admin, pelanggan, halaman login, dan menu utama
 
+![](media/9490165fa92fe82c0bd2dd8f7377e87a.png)
+
 Gambar 3.5 *Sequence* Diagram Login
 
 1.  **Sequence Diagram Kelola Data Laporan**
 
 Berikut ini merupakan *sequence diagram* kelola data laporan menjelaskan hasil
 dari aplikasi
+
+![](media/3b9c14407c5e3ee7a3cc24c119f976af.png)
 
 Gambar 3.6 *Sequence* Diagram kelola data laporan
 
@@ -238,11 +210,11 @@ Gambar 3.6 *Sequence* Diagram kelola data laporan
 Berikut ini merupakan *sequence diagram* kelola data transaksi pemberitahuan
 prosesnya transaksi.
 
+![](media/1e65f73043db816f50d8927b953d92e8.png)
+
 Gambar 3.7 *Sequence* Diagram kelola data transaksi
 
-1.  **Sequence Diagram kelola Data Mobil**
-
-2.  **Collaboration Diagram**
+1.  **Collaboration Diagram**
 
 >   Collaboration diagram disini berfungsi untuk menggambarkan kolaborasi
 >   dinamis, dalam menunjukkan pertukaran pesan, menggambarkan object dan
@@ -315,7 +287,7 @@ Gambar 4.5 *Component* diagram
 
 Gambar 4.6 *Deployment* diagram software
 
-1.  *Deployment Diagram Hardwaress*
+1.  *Deployment Diagram Hardware*
 
 ![](media/110af32db3f11773940149484cb8ddea.png)
 
@@ -338,8 +310,6 @@ Arsitektur Perangkat Lunak diantaranya :
 2.  MySQL Versi 7.0.13.
 
 3.  **Struktur Diagram**
-
-![](media/42e3a9f10d6d381b165e7510c15ff655.png)
 
 Gambar 5.0 *Sruktur* diagram
 
